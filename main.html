@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .logo img {
+            width: 120px; /* Adjust width as needed */
+            height: auto; /* Keeps aspect ratio */
+            border-radius: 8px;
+        }
+        .header-text {
+            text-align: center;
+            flex-grow: 1;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://www.shutterstock.com/image-photo/japanese-bento-contents-box-rice-260nw-2257184015.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #e65c50;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 20px;
+        }
+        .content div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .content div img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .content div h3 {
+            text-align: center;
+            margin: 20px 0 10px;
+        }
+        .content div p {
+            text-align: center;
+        }
+		.Updates {
+		    display: flex;
+			justify-content: space-around;
+			margin: 50px 20px;
+		}
+		.Updates div {
+		    background-color: white;
+			padding: 20px;
+			border-radius: 50px;
+			box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+			width: 30%;
+	    }
+		.Updates div legend {
+		    font-size: 50px;
+			color: red;
+		}
+		.Updates div h3 {
+		    text-align: left;
+			margin: 20px 0 10px;
+		}
+		.Updates div p {
+		    text-align: center;
+            color: black;
+		}	
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: static;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="WhatsApp Image 2024-11-05 at 16.26.09_e529aa8b.jpg" alt="Logo">
+    </div>
+    <div class="header-text">
+        <h1>Lunch Box</h1>
+        <p>Transportation and Logistics</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#new-arrivals">New Arrivals</a>
+    <a href="#best-sellers">Best Sellers</a>
+	<a href="#About-us">About Us</a>
+    <a href="#contact">Contact Us</a>
+	<a href="#profile">Profile</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to Lunch Box</h1>
+    <p>Your Transportation and Logistics Partner</p>
+    <button onclick="alert('Redirecting to New Arrivals!')">Shop Now</button>
+</section>
+
+<section class="content">
+    <div>
+        <img src="https://img.freepik.com/premium-vector/background-with-new-arrival-concept_23-2147884154.jpg" alt="New Arrivals">
+        <h3 id="new-arrivals">New Arrivals</h3>
+        <p>Explore the latest products that just hit the shelves!</p>
+    </div>
+    <div>
+        <img src="https://png.pngtree.com/element_our/png/20181026/best-seller-badge-best-seller-icon-best-seller-vector-best-seller-png_219868.jpg" alt="Best Sellers">
+        <h3 id="best-sellers">Best Sellers</h3>
+        <p>Check out the products everyone is talking about.</p>
+    </div>
+	<div>
+        <img src="https://t3.ftcdn.net/jpg/01/92/95/00/360_F_192950048_PUUtUFKtCTaiCSXbDMoo7Ex8VO0TnYK2.jpg" alt="About Us">
+	    <h3 id="About-us">About Us</h3>
+		<p>We are The Lunch Box family</p>
+        <p>We aspire to give the best services to our customers</p>
+	</div>	
+</section>
+
+<section class="Updates">
+    <div>
+        <legend> New Updates :</legend>	
+        <h3>Lunch Box is now available in 100 cities</h3>
+	    <h3>Lunch Box</h3>	
+	</div>
+	<div>
+	    <legend> Info : </legend>
+		<p>Lunch Box recently launched its new service in Visakhapatnam</p>
+    </div>
+</section>    
+
+<footer>
+    <p>© 2024 Lunch Box | <a href="#contact" style="color: white;">Contact Us</a></p>
+	<p>srinivas.23bce7704@vitapstudent.ac.in</p>
+</footer>
+
+</body>
+</html>
